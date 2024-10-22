@@ -22,7 +22,7 @@ To run this project locally, follow the steps below:
 
 1. **Clone the repository:**
     ```bash
-    git clone <repository-url>
+    git clone (https://github.com/manuscrithu/refactored-octo-memory)
     cd gpa-calculator
     ```
 
