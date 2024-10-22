@@ -13,9 +13,9 @@ The GPA Calculator is a web application designed to simplify the process of retr
 
 ## Technology Stack
 - **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Express.js, PHP
-- **Database**: MongoDB
-- **Others**: JSON, AJAX
+- **Backend**: PHP
+- **Database**: MySQL
+- **Others**: JSON
 
 ## Installation
 To run this project locally, follow the steps below:
