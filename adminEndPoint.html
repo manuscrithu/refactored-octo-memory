@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>admin end</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <style>
+            #credits {
+                height: 30px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <form action="../backEnd/fileUpload.php" method="post" enctype="multipart/form-data" >
+
+            <label for="combo1">Department</label>
+            <select id="combo1" onchange="updateCombo2()" title="dept" name="dept">
+                <option value=""> --Select an option-- </option>
+                <option value="BTC">BTC</option>
+                <option value="ETC">ETC</option>
+                <option value="ITC" selected>ITC</option>
+            </select>
+
+            <br><br>
+
+            <label for="batch">Batch</label>
+            <select id="batch" name="batch" title="batch">
+                <option value="">--Select an option--</option>
+                <option value="19"> 2019 </option>
+                <option value="20"> 2020 </option>
+                <option value="21" selected> 2021 </option>
+                <option value="22"> 2022 </option>
+                <option value="23"> 2023 </option>
+                <option value="24"> 2024 </option>
+                
+            </select>
+
+            <br><br>
+            
+            <label for="credits">Credits</label>
+            <input type="number" name="credits" title="credits" value="2" id="credits">
+            
+            <h2>select file to upload</h2>
+            <input type="file" name="file" title="resultsheet" accept="application/pdf"/>
+            <br><br>
+            <input type="submit" value="upload file" name="file" />
+        </form>
+    </body>
+</html>
